@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.navegation {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    width: 1920px;
+    background-color: gray;
+    text-align: center;
+}
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+    height: 93px;
+    width: 132px;
+    align-items: center;
+    text-align: center;
+}
+li:hover{
+    background-color: cadetblue;
+    color: azure;
+}
+.home,
+.sobremim,
+.conhecimento,
+.portifolio {
+    text-decoration-color: none;
+    text-decoration: none;
+    margin: 15px;
+    align-items: center;
+}
+
+.home:hover,
+.sobremim:hover,
+.conhecimento:hover,
+.portifolio:hover {
+    color: azure;
+}
+.divtitulo {
+    text-align: center;
+}
